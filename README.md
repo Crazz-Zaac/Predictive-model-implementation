@@ -16,12 +16,16 @@ Following tasks were done:
 - [x] Data visualization
     - [x] Visualization of House price vs Square feet of house
     ![alt text](https://github.com/Crazz-Zaac/Predictive-model-implementation/blob/master/assets/pricevssqft_living.png?raw=true)
+
     - [x] Visualization of House price vs House age
     ![alt text](https://github.com/Crazz-Zaac/Predictive-model-implementation/blob/master/assets/pricevshouse_age.png?raw=true)
+
     - [x] Visualization of House price vs House floors
     ![alt text](https://github.com/Crazz-Zaac/Predictive-model-implementation/blob/master/assets/pricevsfloors.png?raw=true)
+
     - [x] Scatter plot of x and y test dataset
     ![alt text](https://github.com/Crazz-Zaac/Predictive-model-implementation/blob/master/assets/scatter_plot.png?raw=true)
+
     - [x] Visualization of actual and predicted value
     ![alt text](https://github.com/Crazz-Zaac/Predictive-model-implementation/blob/master/assets/actualValuevsPredictedvalue.png?raw=true)
 
