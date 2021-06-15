@@ -2,6 +2,7 @@
 This is another module after hypothesis testing. Here, I've used machine learning techniques to predict the dependent variable(i.e., price) of a continuous type. For this part of my practise the following two predictive models were used:
 - [x] Simple Linear Regression
 - [x] Multiple Linear Regression
+- [x] Logistic Regression
 
 These models were implemented on dataset containing house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015.
 
@@ -10,10 +11,12 @@ Following tasks were done:
 - [x] Checking multicollinearity  and risks in 'x' variables
 - [x] Using R-square and Adjusted-R square to evaluate regression models
 - [x] Selecting features for regression using statistical techniques
-- [x] Testing which features are perfectly negatively or positively correlated with the price of house
-  ![alt text](https://github.com/Crazz-Zaac/Predictive-model-implementation/blob/master/assets/correlation.png?raw=true)
+- [x] Using the SelectKBest estimator to select the most relevant features
 
 - [x] Data visualization
+    - [x] Testing which features are perfectly negatively or positively correlated with the price of house
+      ![alt text](https://github.com/Crazz-Zaac/Predictive-model-implementation/blob/master/assets/correlation.png?raw=true)
+
     - [x] Visualization of House price vs Square feet of house
     ![alt text](https://github.com/Crazz-Zaac/Predictive-model-implementation/blob/master/assets/pricevssqft_living.png?raw=true)
 
@@ -32,8 +35,9 @@ Following tasks were done:
 
 ## Datasets
 You can find the datasets used in this project inside the ``` datasets``` directory. The datasets include
-1. kc_house_data.csv
-2. house_data_preprocessed.csv
+1. kc_house_data.csv (used in Multiple Linear Regression)
+2. house_data_preprocessed.csv (used in Simple Linear Regression)
+3. gender_voice_dataset.csv (used in Logistic Regression)
 
 The second dataset is prepared from the first dataset including only the columns that we are interested to analyze.
 
